@@ -61,7 +61,6 @@ export default function Step1Page() {
           Trin 1 af 3
         </div>
 
-        {/* Her inds�tter vi logoet i stedet for teksten */}
         <div className="flex justify-center mb-10">
           <Image
             src="/skatpilot_logo_128x128.png"
