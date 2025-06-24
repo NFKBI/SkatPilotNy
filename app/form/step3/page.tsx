@@ -15,7 +15,7 @@ export default function Step3Page() {
   }
 
   function handleSubmit() {
-    // Her kan du inds�tte API-kald eller anden logik til at sende data
+    // Her kan du indsætte API-kald eller anden logik til at sende data
     setSubmitted(true);
   }
 
@@ -74,7 +74,7 @@ export default function Step3Page() {
           onClick={handleSubmit}
           className="w-full bg-blue-800 text-white py-3 rounded font-bold hover:bg-blue-900 transition"
         >
-          Bekr�ft og send
+          Bekræft og send
         </button>
       </div>
     </main>

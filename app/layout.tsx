@@ -5,6 +5,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="da">
       <head>
+        <meta charSet="UTF-8" /> {/* <-- Her tilføjer du denne linje */}
         <title>SkatPilot</title>
         <link
           rel="icon"
