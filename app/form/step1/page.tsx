@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSkatPilot } from '../../../context/SkatPilotContext';
+import Image from 'next/image';
 
 export default function Step1Page() {
   const router = useRouter();
@@ -60,12 +61,15 @@ export default function Step1Page() {
           Trin 1 af 3
         </div>
 
-        <h1
-          id="pageTitle"
-          className="text-5xl font-extrabold mb-10 text-center text-blue-900"
-        >
-          SkatPilot
-        </h1>
+        {/* Her inds�tter vi logoet i stedet for teksten */}
+        <div className="flex justify-center mb-10">
+          <Image
+            src="/skatpilot_logo_128x128.png"
+            alt="SkatPilot logo"
+            width={128}
+            height={128}
+          />
+        </div>
 
         {error && (
           <p
