@@ -140,7 +140,7 @@ export default function Step1Page() {
           className={`w-full py-5 rounded-xl font-extrabold transition duration-200
             ${isValid ? 'bg-blue-800 hover:bg-blue-900 text-white shadow-xl' : 'bg-blue-200 text-blue-400 cursor-not-allowed'}`}
         >
-          N�ste trin
+          Videre
         </button>
       </form>
     </main>

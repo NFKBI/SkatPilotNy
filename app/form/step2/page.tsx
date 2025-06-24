@@ -34,7 +34,7 @@ export default function Step2Page() {
         onSubmit={handleSubmit}
         className="bg-white p-6 rounded-lg shadow-md w-full max-w-md"
       >
-        <h1 className="text-2xl font-bold mb-6 text-center">SkatPilot - Trin 2</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center">Skat Pilot - Trin 2</h1>
 
         {error && (
           <p className="mb-4 text-red-600 font-semibold text-center">{error}</p>
@@ -101,7 +101,7 @@ export default function Step2Page() {
             type="submit"
             className="bg-blue-600 text-white py-2 px-6 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
-            N�ste
+            Videre
           </button>
         </div>
       </form>
