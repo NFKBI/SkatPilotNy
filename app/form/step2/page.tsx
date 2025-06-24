@@ -16,7 +16,7 @@ export default function Step2Page() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!income.trim() || isNaN(Number(income))) {
-      setError('Indtast venligst en gyldig årlig indkomst');
+      setError('Indtast venligst en gyldig ï¿½rlig indkomst');
       return;
     }
     setError('');
@@ -41,7 +41,7 @@ export default function Step2Page() {
         )}
 
         <label className="block mb-4">
-          <span className="text-gray-700 font-semibold">Årlig skattepligtig indkomst (DKK)</span>
+          <span className="text-gray-700 font-semibold">ï¿½rlig skattepligtig indkomst (DKK)</span>
           <input
             type="text"
             value={income}
@@ -101,7 +101,7 @@ export default function Step2Page() {
             type="submit"
             className="bg-blue-600 text-white py-2 px-6 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
-            Næste
+            Nï¿½ste
           </button>
         </div>
       </form>
