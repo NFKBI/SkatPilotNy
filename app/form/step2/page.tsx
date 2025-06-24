@@ -16,7 +16,7 @@ export default function Step2Page() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!income.trim() || isNaN(Number(income))) {
-      setError('Indtast venligst en gyldig årlig indkomst');
+      setError('Indtast venligst en gyldig �rlig indkomst');
       return;
     }
     setError('');
@@ -25,7 +25,7 @@ export default function Step2Page() {
       hasDeduction,
       wantsPensionOverview,
     });
-    router.push('/form/result');
+    router.push('/form/step3');
   }
 
   return (
@@ -41,7 +41,7 @@ export default function Step2Page() {
         )}
 
         <label className="block mb-4">
-          <span className="text-gray-700 font-semibold">årlig skattepligtig indkomst (DKK)</span>
+          <span className="text-gray-700 font-semibold">�rlig skattepligtig indkomst (DKK)</span>
           <input
             type="text"
             value={income}
